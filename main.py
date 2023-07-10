@@ -1,7 +1,7 @@
 import PySimpleGUI as Sg
 
 
-class GUI:
+class App:
     def __init__(self):
         self.theme = 'DarkRed'
         self.font = 'Calibri'
@@ -73,5 +73,5 @@ class GUI:
 
 
 if __name__ == '__main__':
-    app = GUI()
+    app = App()
     app.run()
